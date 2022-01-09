@@ -7,7 +7,6 @@ import (
 	"os/exec"
 	"path/filepath"
 	"sort"
-
 	"github.com/antchfx/htmlquery"
 )
 
