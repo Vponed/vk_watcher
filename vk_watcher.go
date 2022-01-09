@@ -13,9 +13,12 @@ import (
 
 func main() {
 	var file_content_list []string
+	var filename, url string
+	
+	// здесь получаем путь к каталогу исполняемого файла
 	path, _ := os.Executable()
 	path = filepath.Dir(path)
-	var filename, url string
+	
 
 	url = os.Args[1]      // 1-й аргумент URL
 	filename = os.Args[2] // 2-й аргумент файл, для промежуточной записи
